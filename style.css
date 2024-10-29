@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+    font-size: 25px;
+    padding: 15px;
+    text-decoration: none;
+    height: 80px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+header>span:hover:not(.icons){
+    text-decoration: underline;
+}
+/* .container{
+    /* padding: 80px;
+}*/
+.text{
+    /* background-color: aqua; */
+    height: 50px;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: #0000001a 0px 4px 12px;
+}
+#search{
+    width: 60vw;
+    height: 45px;
+    border: none;
+    outline: none;
+}
+.searchh{
+    display: flex;
+    margin-top: 20px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    height: 80vh;
+}
+.icon{
+    margin: 15px;
+    font-size: 20px;
+}
+.icon-section{
+    display: flex;
+
+}
+.short{
+    font-size: 2rem;
+    margin: 40px;
+    padding: 30px;
+}
+.short:hover{
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+.utube{
+    color: red;
+}
+.insta{
+    color: #eb65a6;
+}
+.foot{
+    display: flex;
+    justify-content: end;
+    padding:5px;
+    margin-right: 50px;
+    
+}
+@media screen and (width : 600px) {
+    icon-section{
+        width: 20px;
+    }
+}
